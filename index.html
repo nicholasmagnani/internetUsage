@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Usage</title>
+    <link rel='icon' type='image/png' href='images/NM.png'/>
+    <link rel='stylesheet' href='styles.css'>
+    <script src='https://d3js.org/d3.v7.min.js'></script>
+    <script src= 'visuals.js'></script>
+</head>
+<body onload='main()', bgcolor='#F5EFE6'>
+    <div id = 'header'>
+        <text id = 'heading'>Internet Usage For Countries</text>
+    </div>
+
+    <div id = 'description'>
+        <h1><b>Country:<br> % of Internet Users in this Country is:<br>GDP Per Capita in this Country is:<br>% of Urban Population in the Country is:</b></h1>
+    </div>
+
+	<div id='tooltip' class='hidden'>
+        <h2><span id='country'> ... </span></h2>
+		<h2><span id='usage'> ... </span></h2>
+        <h2><span id='gdp'> ... </span></h2>
+        <h2><span id='rate'> ... </span></h2>
+	</div> 
+    <svg width=2000 height=1000></svg>
+
+</body>
+</html>

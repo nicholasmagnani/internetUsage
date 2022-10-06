@@ -1,0 +1,28 @@
+body{
+    font-family: Helvetica, sans-serif;
+    color: #4d2b1c;
+}
+#header{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+#heading{
+    font-family: Helvetica, sans-serif;
+    font-size: 4vw;
+}
+#description{
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+    line-height: 1.4;
+    font-weight: lighter;
+}
+#tooltip{
+    display: inline-block;
+    text-align: center;
+    font-weight: lighter;
+}
+.bar{
+    fill: #628E90;
+}
